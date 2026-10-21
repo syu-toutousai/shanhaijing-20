@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" role="img" aria-labelledby="t d">
+<title id="t">育沛</title>
+<desc id="d">线描：一条从山间流下的水，水底三块被磨圆的石头。</desc>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M30 40 C60 96 120 104 132 152 C146 208 110 244 122 300" stroke="#8aa398" stroke-width="1.8" opacity="0.7"/>
+  <path d="M390 34 C356 92 300 108 288 158 C276 210 312 246 300 302" stroke="#8aa398" stroke-width="1.8" opacity="0.7"/>
+
+  <path d="M96 26 C128 92 186 118 196 168 C206 220 168 254 178 314 L248 314 C238 252 278 220 268 168 C258 118 202 96 176 26 Z"
+        fill="#e3eae4" stroke="#7e9a90" stroke-width="1.6"/>
+  <path d="M136 40 C158 98 208 122 216 168 C224 216 194 250 202 306" stroke="#b6c9c2" stroke-width="1.2"/>
+  <path d="M196 34 C222 100 250 128 252 176 C254 224 230 258 236 310" stroke="#b6c9c2" stroke-width="1.2"/>
+
+  <g stroke="#7e9a90" stroke-width="1.2" opacity="0.8">
+    <path d="M150 96 q22 12 46 8"/>
+    <path d="M166 132 q20 14 44 10"/>
+    <path d="M184 210 q18 10 38 6"/>
+    <path d="M168 250 q22 12 44 8"/>
+    <path d="M190 276 q16 8 34 4"/>
+  </g>
+
+  <g stroke="#8a6a3f" stroke-width="1.4">
+    <ellipse cx="200" cy="190" rx="26" ry="18" fill="#e8c98e"/>
+    <ellipse cx="188" cy="182" rx="8" ry="5" fill="#f4e3bd" stroke="none"/>
+    <ellipse cx="238" cy="236" rx="18" ry="13" fill="#d9b072"/>
+    <ellipse cx="230" cy="231" rx="5.5" ry="3.4" fill="#f0ddb4" stroke="none"/>
+    <ellipse cx="226" cy="146" rx="13" ry="10" fill="#c9a06a"/>
+    <ellipse cx="221" cy="142" rx="4" ry="2.6" fill="#eddab2" stroke="none"/>
+  </g>
+
+  <g stroke="#c9b48f" stroke-width="1" opacity="0.75">
+    <path d="M96 304 q30 -10 60 0 t60 0 t60 0 t60 0"/>
+    <path d="M120 314 q30 -8 58 0 t58 0 t58 0"/>
+  </g>
+</g>
+</svg>

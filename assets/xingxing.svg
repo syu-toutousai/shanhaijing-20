@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" role="img" aria-labelledby="t d">
+<title id="t">狌狌</title>
+<desc id="d">线描：一只白耳、伏身疾走的猿，前肢长，尾向后扬起。</desc>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M20 266 Q120 258 210 264 T402 260" stroke="#a3937a" stroke-width="1.6"/>
+
+  <path d="M180 192 C160 174 140 162 126 168 C114 173 112 186 120 194 C128 202 140 200 148 194"
+        stroke="#3a3f3c" stroke-width="3.2"/>
+
+  <path d="M184 208 C176 224 170 240 176 256" stroke="#3a3f3c" stroke-width="9"/>
+  <path d="M176 256 q-4 7 4 8 q8 0 10 -8" stroke="#3a3f3c" stroke-width="5" fill="#c9bfa8"/>
+  <path d="M196 212 C202 228 208 242 212 258" stroke="#3a3f3c" stroke-width="8"/>
+  <path d="M212 258 q-3 7 5 8 q8 0 9 -8" stroke="#3a3f3c" stroke-width="5" fill="#c9bfa8"/>
+
+  <path d="M180 190 C196 178 230 174 252 182 C268 188 276 196 282 204 C270 214 244 218 222 214 C200 210 186 202 180 190 Z"
+        fill="#9c9280" fill-opacity="0.2" stroke="#3a3f3c" stroke-width="2.2"/>
+  <path d="M186 196 q26 -12 58 -6" stroke="#6b6252" stroke-width="1.2" opacity="0.7"/>
+
+  <path d="M256 196 C270 214 280 232 288 250" stroke="#3a3f3c" stroke-width="8"/>
+  <path d="M288 250 q6 8 14 4 q4 -6 -2 -12" stroke="#3a3f3c" stroke-width="5" fill="#c9bfa8"/>
+  <path d="M246 200 C252 220 256 238 258 254" stroke="#3a3f3c" stroke-width="7"/>
+  <path d="M258 254 q5 7 12 3 q3 -6 -3 -11" stroke="#3a3f3c" stroke-width="4.6" fill="#c9bfa8"/>
+
+  <path d="M268 186 C272 170 284 160 298 162 C312 164 320 176 318 190 C316 204 304 212 292 210 C280 208 272 198 268 186 Z"
+        fill="#c9bfa8" stroke="#3a3f3c" stroke-width="2"/>
+  <path d="M278 166 C274 154 280 144 290 146" stroke="#3a3f3c" stroke-width="1.8"/>
+  <path d="M308 164 C312 152 306 142 296 144" stroke="#3a3f3c" stroke-width="1.8"/>
+  <ellipse cx="276" cy="158" rx="7.5" ry="8.5" fill="#f8f3e8" stroke="#3a3f3c" stroke-width="1.6"/>
+  <ellipse cx="310" cy="158" rx="7.5" ry="8.5" fill="#f8f3e8" stroke="#3a3f3c" stroke-width="1.6"/>
+  <circle cx="286" cy="182" r="2.2" fill="#23282a"/>
+  <circle cx="302" cy="180" r="2.2" fill="#23282a"/>
+  <path d="M288 194 q6 3 11 0" stroke="#3a3f3c" stroke-width="1.4"/>
+  <path d="M312 186 q5 2 7 -1 M278 190 q-4 3 -6 1" stroke="#3a3f3c" stroke-width="1"/>
+
+  <path d="M182 206 q28 8 60 4" stroke="#5f574a" stroke-width="1" opacity="0.5"/>
+</g>
+</svg>

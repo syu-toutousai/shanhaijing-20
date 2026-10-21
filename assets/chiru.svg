@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" role="img" aria-labelledby="t d">
+<title id="t">赤鱬</title>
+<desc id="d">线描：一条人面鱼，鳞片与身下的水纹。</desc>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M24 274 Q120 266 210 272 T400 268" stroke="#a3937a" stroke-width="1.6"/>
+
+  <path d="M92 190 C104 156 140 136 184 136 C232 136 268 158 282 190 C268 222 232 244 184 244 C140 244 104 224 92 190 Z"
+        fill="#d9b3a0" stroke="#a63d2f" stroke-width="2"/>
+  <path d="M282 190 C302 178 318 168 330 158 C334 176 334 204 330 222 C318 212 302 202 282 190 Z"
+        fill="#cf9f8b" stroke="#a63d2f" stroke-width="1.8"/>
+
+  <path d="M146 156 C140 136 148 120 164 116 C182 112 196 122 198 138 C200 152 190 162 178 164"
+        fill="#ead6c4" stroke="#8a5a3f" stroke-width="2"/>
+  <path d="M164 118 C160 108 166 100 176 102 C184 104 186 112 182 118" fill="#c9a06a" stroke="#8a5a3f" stroke-width="1.6"/>
+
+  <circle cx="168" cy="136" r="2.2" fill="#23282a"/>
+  <circle cx="184" cy="134" r="2.2" fill="#23282a"/>
+  <path d="M172 148 q6 4 12 0" stroke="#8a5a3f" stroke-width="1.4"/>
+  <path d="M160 128 q4 -4 9 -3 M188 126 q5 -1 8 2" stroke="#8a5a3f" stroke-width="1.1"/>
+
+  <g stroke="#a63d2f" stroke-width="1.1" opacity="0.55">
+    <path d="M120 176 q14 -10 28 -4"/>
+    <path d="M146 194 q16 -10 32 -4"/>
+    <path d="M178 210 q16 -10 32 -2"/>
+    <path d="M212 212 q14 -8 28 -2"/>
+    <path d="M238 196 q12 -8 26 -4"/>
+    <path d="M126 208 q14 -8 28 -2"/>
+    <path d="M154 224 q16 -8 30 -2"/>
+    <path d="M190 232 q14 -6 28 0"/>
+  </g>
+
+  <path d="M196 136 C214 128 232 128 246 136 C232 146 214 148 196 136 Z" fill="#e8c9b6" stroke="#a63d2f" stroke-width="1.4"/>
+  <path d="M204 136 q18 -6 34 0" stroke="#a63d2f" stroke-width="1"/>
+
+  <path d="M150 242 C148 254 156 258 164 252" stroke="#a63d2f" stroke-width="2"/>
+  <path d="M180 246 C180 258 188 260 194 252" stroke="#a63d2f" stroke-width="1.8"/>
+
+  <g stroke="#d0b79c" stroke-width="1" opacity="0.8">
+    <path d="M70 286 q26 -8 52 0 t52 0 t52 0 t52 0 t52 0"/>
+    <path d="M96 298 q26 -7 52 0 t52 0 t52 0 t52 0"/>
+  </g>
+</g>
+</svg>

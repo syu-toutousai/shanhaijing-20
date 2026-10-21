@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" role="img" aria-labelledby="t d">
+<title id="t">灌灌</title>
+<desc id="d">线描：一只像斑鸠的鸟，口中呼出三道气。</desc>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M24 272 Q120 264 210 270 T400 266" stroke="#a3937a" stroke-width="1.6"/>
+
+  <path d="M208 196 C196 178 200 152 218 138 C238 122 266 126 278 146 C290 166 282 194 262 204 C244 212 220 210 208 196 Z"
+        fill="#b9c4b4" stroke="#4f6d61" stroke-width="2"/>
+  <path d="M218 140 C208 122 212 104 228 96 C246 88 264 96 268 114 C272 130 262 142 250 146"
+        fill="#c7d0c1" stroke="#4f6d61" stroke-width="2"/>
+
+  <path d="M228 104 q6 -12 16 -10 q8 2 6 12" fill="#8fa398" stroke="#4f6d61" stroke-width="1.6"/>
+  <circle cx="242" cy="116" r="2" fill="#23282a"/>
+  <path d="M268 120 l16 -4 l-14 10 Z" fill="#b08a5a" stroke="#7c6a4c" stroke-width="1.4"/>
+
+  <path d="M206 176 C186 168 168 174 158 188 C150 200 154 214 166 220 C180 226 196 218 204 204"
+        fill="#a9b8ac" stroke="#4f6d61" stroke-width="1.8"/>
+  <path d="M168 190 q14 6 28 14 M162 204 q16 4 32 8" stroke="#6f8d80" stroke-width="1.2" opacity="0.8"/>
+
+  <path d="M270 198 C286 206 300 220 304 238 C306 250 300 258 292 254" stroke="#7c6a4c" stroke-width="2.4"/>
+  <path d="M290 204 C304 210 314 222 316 236" stroke="#9c8a6c" stroke-width="1.4"/>
+
+  <path d="M168 250 l-6 16 M186 254 l-2 16 M204 254 l4 16" stroke="#8a6a3f" stroke-width="2.4"/>
+  <path d="M156 266 q10 4 18 0 M180 270 q9 4 18 0 M204 270 q10 4 18 0" stroke="#8a6a3f" stroke-width="2"/>
+
+  <g stroke="#6f8d80" stroke-width="1.5" opacity="0.75">
+    <path d="M286 118 q16 -6 26 -18"/>
+    <path d="M288 108 q14 -12 18 -26"/>
+    <path d="M280 128 q18 0 30 -8"/>
+  </g>
+  <g stroke="#a63d2f" stroke-width="1" opacity="0.4">
+    <path d="M310 96 q6 -10 4 -20"/>
+    <path d="M318 86 q8 -8 8 -18"/>
+  </g>
+</g>
+</svg>

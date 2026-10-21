@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" role="img" aria-labelledby="t d">
+<title id="t">九尾狐</title>
+<desc id="d">线描：一只侧身的狐，九条尾巴在身后展开。</desc>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M16 268 Q120 260 210 266 T404 262" stroke="#a3937a" stroke-width="1.6"/>
+
+  <path d="M120 236 C118 214 128 196 148 188 C166 180 190 182 204 194 C218 206 222 224 218 240"
+        fill="#e0cbb2" stroke="#8a5a3f" stroke-width="2"/>
+  <path d="M150 186 C146 164 154 146 172 138 C192 128 214 134 222 152 C230 168 224 184 210 190"
+        fill="#e6d4bc" stroke="#8a5a3f" stroke-width="2"/>
+
+  <path d="M170 166 C162 150 166 136 178 132 C188 128 198 132 202 142" fill="#e6d4bc" stroke="#8a5a3f" stroke-width="1.8"/>
+  <path d="M206 158 C214 144 210 132 200 128 C192 124 182 128 180 138" fill="#e6d4bc" stroke="#8a5a3f" stroke-width="1.8"/>
+  <path d="M178 132 q4 -14 12 -16 q6 6 2 18" fill="#c98f74" stroke="#8a5a3f" stroke-width="1.6"/>
+  <path d="M202 130 q8 -12 16 -12 q4 8 -4 18" fill="#c98f74" stroke="#8a5a3f" stroke-width="1.6"/>
+
+  <circle cx="184" cy="152" r="2" fill="#23282a"/>
+  <circle cx="202" cy="150" r="2" fill="#23282a"/>
+  <path d="M212 162 q6 2 8 -2" stroke="#8a5a3f" stroke-width="1.4"/>
+  <path d="M214 166 q-4 4 -9 3" stroke="#8a5a3f" stroke-width="1.2"/>
+
+  <g stroke="#a63d2f" stroke-width="2.1" opacity="0.72">
+    <path d="M136 206 C100 180 90 140 104 120 C116 104 132 110 132 126"/>
+    <path d="M134 210 C96 196 74 168 78 140 C82 120 98 116 106 128"/>
+    <path d="M132 214 C90 210 60 192 54 164 C50 144 64 136 76 146"/>
+    <path d="M132 218 C88 224 58 216 44 194 C34 178 44 164 58 170"/>
+    <path d="M134 222 C92 236 60 236 44 218 C32 204 40 190 54 192"/>
+    <path d="M138 226 C100 248 70 252 52 240 C38 230 40 214 54 214"/>
+    <path d="M144 230 C114 254 88 264 68 258 C52 252 50 236 64 232"/>
+    <path d="M152 232 C130 258 108 272 88 272 C70 272 64 258 76 250"/>
+    <path d="M160 232 C148 260 132 278 112 284 C94 290 84 278 94 266"/>
+  </g>
+  <g stroke="#c46455" stroke-width="1" opacity="0.5">
+    <path d="M136 206 C118 186 112 152 120 132"/>
+    <path d="M132 214 C104 204 84 180 84 156"/>
+    <path d="M134 222 C104 228 78 224 60 208"/>
+    <path d="M144 230 C120 246 96 254 78 250"/>
+  </g>
+
+  <path d="M146 246 q14 8 30 4 M150 258 q10 6 22 4" stroke="#9c7a5c" stroke-width="1.2" opacity="0.8"/>
+</g>
+</svg>

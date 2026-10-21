@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8f3e8"/>
+      <stop offset="1" stop-color="#ece3d0"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ece3d0" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ece3d0" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <g opacity="0.5">
+    <circle cx="1002" cy="128" r="52" fill="#a63d2f"/>
+    <circle cx="1002" cy="128" r="96" fill="#a63d2f" opacity="0.12"/>
+  </g>
+
+  <path d="M0 470 C60 452 110 430 170 442 C230 454 260 424 320 414 C380 404 410 438 470 446 C530 454 560 424 620 414 C680 404 710 438 770 446 C830 454 860 424 920 414 C980 404 1010 438 1070 446 C1120 452 1160 438 1200 426 L1200 630 L0 630 Z"
+        fill="#4f6d61" opacity="0.2"/>
+  <path d="M0 518 C60 502 110 482 170 494 C230 506 260 478 320 468 C380 458 410 492 470 500 C530 508 560 478 620 468 C680 458 710 492 770 500 C830 508 860 478 920 468 C980 458 1010 492 1070 500 C1120 506 1160 492 1200 480 L1200 630 L0 630 Z"
+        fill="#4f6d61" opacity="0.35"/>
+  <path d="M0 566 C60 550 110 532 170 544 C230 556 260 528 320 518 C380 508 410 542 470 550 C530 558 560 528 620 518 C680 508 710 542 770 550 C830 558 860 528 920 518 C980 508 1010 542 1070 550 C1120 556 1160 542 1200 530 L1200 630 L0 630 Z"
+        fill="#4f6d61" opacity="0.55"/>
+
+  <rect x="0" y="0" width="1200" height="630" fill="url(#fade)" opacity="0.35"/>
+
+  <rect x="84" y="86" width="5" height="150" fill="#a63d2f"/>
+
+  <text x="116" y="140" font-family="Noto Sans CJK SC, sans-serif" font-size="21" letter-spacing="12" fill="#a63d2f">SHAN HAI JING · TWENTY LECTURES</text>
+  <text x="112" y="248" font-family="Noto Serif CJK SC, serif" font-size="104" font-weight="600" letter-spacing="10" fill="#23282a">山海经二十讲</text>
+  <text x="116" y="318" font-family="Noto Serif CJK SC, serif" font-size="34" letter-spacing="4" fill="#3d4441">一部被读了两千年的书，我们从头再读一遍</text>
+
+  <g font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#7c7466" letter-spacing="3">
+    <text x="118" y="380">按十八卷顺序 · 全二十讲</text>
+    <text x="118" y="414" fill="#a63d2f">第一季已更新 00 导论 · 01 南山经</text>
+  </g>
+
+  <text x="116" y="580" font-family="Noto Serif CJK SC, serif" font-size="26" fill="#f8f3e8" opacity="0.9">syu-toutousai.github.io/shanhaijing-20</text>
+</svg>

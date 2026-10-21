@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#a63d2f">
+<title>山海经二十讲 · 一部被读了两千年的书，我们从头再读一遍</title>
+<meta name="description" content="按十八卷顺序通读《山海经》的二十讲课程。第一季公开导论与南山经：从招摇之山的第一句开始，看草木、金玉、鸟兽与水石。">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<noscript><style>.reveal{opacity:1!important;transform:none!important}</style></noscript>
+<link rel="canonical" href="https://syu-toutousai.github.io/shanhaijing-20/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="山海经二十讲">
+<meta property="og:title" content="山海经二十讲 · 从头再读一遍">
+<meta property="og:description" content="按十八卷顺序通读《山海经》。第一季：导论、南山经。">
+<meta property="og:url" content="https://syu-toutousai.github.io/shanhaijing-20/">
+<meta property="og:image" content="https://syu-toutousai.github.io/shanhaijing-20/assets/ogp.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="山海经二十讲">
+<meta name="twitter:description" content="按十八卷顺序通读《山海经》。第一季：导论、南山经。">
+<meta name="twitter:image" content="https://syu-toutousai.github.io/shanhaijing-20/assets/ogp.png">
+<style>
+:root{
+  --paper:#f6f1e6;
+  --paper-2:#efe7d6;
+  --card:#fbf8f0;
+  --ink:#23282a;
+  --ink-2:#3d4441;
+  --muted:#7c7466;
+  --line:#ddd3c0;
+  --line-2:#c9bda6;
+  --cinnabar:#a63d2f;
+  --cinnabar-2:#c46455;
+  --cinnabar-soft:#f1e2dc;
+  --jade:#4f6d61;
+  --jade-soft:#e4ebe6;
+  --gold:#9a7a3e;
+  --serif:"Noto Serif CJK SC","Songti SC","STSong","SimSun","Noto Serif SC",serif;
+  --sans:"Noto Sans CJK SC","PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  --shadow:0 18px 50px rgba(60,45,25,.08);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --paper:#171a17;
+    --paper-2:#1d211c;
+    --card:#20251f;
+    --ink:#e9e3d5;
+    --ink-2:#d2cbbb;
+    --muted:#a39a86;
+    --line:#343a30;
+    --line-2:#454c3f;
+    --cinnabar:#d47a66;
+    --cinnabar-2:#e0917e;
+    --cinnabar-soft:#2f231e;
+    --jade:#8fb3a3;
+    --jade-soft:#24302b;
+    --gold:#c2a166;
+    --shadow:0 18px 50px rgba(0,0,0,.35);
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{
+  margin:0;
+  font-family:var(--serif);
+  background:var(--paper);
+  color:var(--ink);
+  line-height:1.95;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+img{max-width:100%;display:block}
+a{color:var(--cinnabar);text-decoration:none}
+a:hover{text-decoration:underline;text-underline-offset:3px}
+
+#progress{
+  position:fixed;top:0;left:0;height:3px;width:0;
+  background:linear-gradient(90deg,var(--cinnabar),var(--gold));
+  z-index:100;transition:width .08s linear;
+}
+
+nav.top{
+  position:sticky;top:0;z-index:90;
+  display:flex;align-items:center;justify-content:space-between;
+  gap:16px;padding:12px clamp(16px,4vw,44px);
+  background:color-mix(in srgb,var(--paper) 88%,transparent);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--line);
+}
+nav.top .brand{font-size:15px;letter-spacing:.16em;color:var(--ink-2);white-space:nowrap}
+nav.top .brand b{color:var(--cinnabar);font-weight:600}
+nav.top .links{display:flex;gap:4px;flex-wrap:wrap}
+nav.top .links a{
+  font-family:var(--sans);font-size:12.5px;color:var(--muted);
+  padding:5px 10px;border-radius:99px;letter-spacing:.05em;
+}
+nav.top .links a:hover{background:var(--cinnabar-soft);color:var(--cinnabar);text-decoration:none}
+nav.top .links a.on{background:var(--cinnabar);color:#fff}
+
+.hero{
+  position:relative;min-height:min(88vh,780px);
+  display:flex;flex-direction:column;justify-content:center;
+  padding:7vh clamp(20px,6vw,80px) 16vh;overflow:hidden;
+  border-bottom:1px solid var(--line);
+}
+.hero-art{
+  position:absolute;inset:auto 0 0 0;width:100%;height:78%;
+  object-fit:cover;object-position:center bottom;opacity:.92;
+}
+.hero::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,var(--paper) 0%,color-mix(in srgb,var(--paper) 55%,transparent) 42%,color-mix(in srgb,var(--paper) 12%,transparent) 78%);
+  pointer-events:none;
+}
+.hero-inner{position:relative;z-index:2;max-width:1000px;margin:0 auto;width:100%}
+.kicker{
+  font-family:var(--sans);font-size:12px;letter-spacing:.42em;
+  color:var(--cinnabar);margin:0 0 18px;text-transform:uppercase;
+}
+.hero h1{
+  margin:0;font-weight:600;line-height:1.08;letter-spacing:.06em;
+  font-size:clamp(52px,9vw,104px);
+}
+.hero h1 span{display:inline-block;color:var(--cinnabar)}
+.hero .sub{
+  margin:22px 0 0;font-size:clamp(16px,2.1vw,21px);
+  color:var(--ink-2);letter-spacing:.06em;line-height:1.8;
+}
+.hero .sub em{font-style:normal;border-bottom:1px solid var(--line-2);padding-bottom:2px}
+.hero .meta{
+  margin:26px 0 0;font-family:var(--sans);font-size:12.5px;
+  color:var(--muted);letter-spacing:.12em;
+}
+.hero .meta b{color:var(--ink-2);font-weight:500}
+.cta{
+  display:inline-flex;align-items:center;gap:10px;margin-top:30px;
+  font-family:var(--sans);font-size:14px;letter-spacing:.12em;
+  background:var(--cinnabar);color:#fff;padding:13px 26px;border-radius:2px;
+  box-shadow:0 10px 26px rgba(166,61,47,.22);
+}
+.cta:hover{text-decoration:none;background:#8f3326}
+.cta svg{width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:2}
+
+section.block{max-width:1080px;margin:0 auto;padding:clamp(52px,8vw,96px) clamp(18px,5vw,48px)}
+.sec-head{margin-bottom:34px}
+.sec-head .no{
+  font-family:var(--sans);font-size:11.5px;letter-spacing:.34em;color:var(--cinnabar);
+}
+.sec-head h2{
+  margin:8px 0 0;font-size:clamp(26px,4vw,38px);font-weight:600;letter-spacing:.08em;
+}
+.sec-head p{margin:12px 0 0;color:var(--muted);font-size:14.5px;max-width:46em}
+
+.toc{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.lec{
+  display:flex;align-items:flex-start;gap:16px;
+  padding:18px 18px 17px;background:var(--card);border:1px solid var(--line);
+  border-radius:3px;color:var(--ink);position:relative;transition:.18s;
+}
+.lec:hover{text-decoration:none;border-color:var(--cinnabar);transform:translateY(-2px);box-shadow:var(--shadow)}
+.lec .num{
+  font-family:var(--sans);font-size:24px;font-weight:600;color:var(--cinnabar-2);
+  line-height:1;min-width:2.1em;letter-spacing:0;
+}
+.lec .body{display:flex;flex-direction:column;gap:2px;flex:1}
+.lec .body strong{font-size:16.5px;font-weight:600;letter-spacing:.05em}
+.lec .body em{font-style:normal;font-size:13px;color:var(--muted);line-height:1.6}
+.lec .state{
+  font-family:var(--sans);font-size:10.5px;letter-spacing:.08em;
+  padding:3px 8px;border-radius:99px;white-space:nowrap;
+  background:var(--paper-2);color:var(--muted);border:1px solid var(--line);
+}
+.lec .state.open{background:var(--cinnabar);color:#fff;border-color:transparent}
+.lec.locked{opacity:.62;background:transparent;border-style:dashed}
+.lec.locked:hover{transform:none;box-shadow:none;border-color:var(--line)}
+
+article{max-width:760px;margin:0 auto;padding:0 clamp(18px,5vw,32px) 40px}
+.lec-head{padding-top:clamp(48px,7vw,84px);margin-bottom:34px}
+.lec-head .big{
+  font-family:var(--sans);font-size:clamp(64px,11vw,110px);line-height:.85;
+  color:var(--cinnabar-soft);font-weight:700;letter-spacing:-.02em;
+  -webkit-text-stroke:1px color-mix(in srgb,var(--cinnabar) 35%,transparent);
+  margin:0 0 14px;
+}
+.lec-head .tag{
+  font-family:var(--sans);font-size:11.5px;letter-spacing:.3em;color:var(--cinnabar);
+}
+.lec-head h2{
+  margin:10px 0 0;font-size:clamp(25px,4.4vw,36px);font-weight:600;letter-spacing:.06em;line-height:1.35;
+}
+.lec-head .lead{margin:18px 0 0;color:var(--ink-2);font-size:16px;line-height:1.95}
+.lec-head .read{
+  margin-top:16px;font-family:var(--sans);font-size:12px;color:var(--muted);
+  letter-spacing:.1em;display:flex;gap:16px;flex-wrap:wrap;
+}
+.lec-head .read span{display:inline-flex;align-items:center;gap:6px}
+.dot{width:5px;height:5px;border-radius:50%;background:var(--cinnabar);display:inline-block}
+
+.keybox{
+  background:var(--jade-soft);border-left:3px solid var(--jade);
+  padding:18px 22px;margin:28px 0 34px;font-size:14.5px;line-height:1.9;
+}
+.keybox b{
+  display:block;font-family:var(--sans);font-size:11px;letter-spacing:.24em;
+  color:var(--jade);margin-bottom:8px;font-weight:600;
+}
+.keybox ul{margin:0;padding-left:1.1em}
+.keybox li{margin:3px 0;color:var(--ink-2)}
+
+h3{
+  font-size:clamp(20px,2.8vw,25px);font-weight:600;letter-spacing:.04em;
+  margin:2.6em 0 .8em;padding-top:.2em;position:relative;
+}
+h3 .hn{
+  display:inline-block;font-family:var(--sans);font-size:13px;color:var(--cinnabar);
+  letter-spacing:.1em;margin-right:10px;vertical-align:2px;
+  padding-left:9px;border-left:3px solid var(--cinnabar);line-height:1.15;
+}
+h4{font-size:18px;font-weight:600;letter-spacing:.04em;margin:2em 0 .5em;color:var(--ink)}
+h4::before{content:"";display:inline-block;width:7px;height:7px;background:var(--cinnabar);margin-right:9px;vertical-align:3px;transform:rotate(45deg)}
+p{margin:0 0 1.15em}
+.small{font-size:13.5px;color:var(--muted);line-height:1.85}
+
+blockquote{
+  margin:2em 0;padding:22px 26px;background:var(--card);
+  border-left:3px solid var(--cinnabar);
+  font-size:16.5px;line-height:2.05;color:var(--ink-2);
+  letter-spacing:.03em;
+}
+blockquote p{margin:0;text-indent:2em}
+blockquote p + p{margin-top:.6em}
+blockquote cite{
+  display:block;margin-top:12px;text-align:right;
+  font-family:var(--sans);font-size:11.5px;font-style:normal;
+  color:var(--muted);letter-spacing:.12em;
+}
+
+figure{margin:2em 0;padding:14px;background:var(--card);border:1px solid var(--line)}
+figure img{margin:0 auto;max-height:420px;width:auto}
+figcaption{
+  margin-top:10px;text-align:center;font-family:var(--sans);
+  font-size:11.5px;color:var(--muted);letter-spacing:.1em;
+}
+
+.obj{
+  margin:1.8em 0;padding:18px 20px;background:var(--card);
+  border:1px solid var(--line);border-top:3px solid var(--gold);
+}
+.obj-h{display:flex;align-items:baseline;gap:10px;margin-bottom:10px}
+.obj-name{font-size:19px;font-weight:600;letter-spacing:.1em}
+.obj-tag{
+  font-family:var(--sans);font-size:10.5px;letter-spacing:.1em;
+  color:var(--gold);border:1px solid var(--line-2);padding:1px 7px;border-radius:99px;
+}
+.obj dl{display:grid;grid-template-columns:4.2em 1fr;gap:6px 14px;margin:0;font-size:14px;line-height:1.8}
+.obj dt{font-family:var(--sans);font-size:11px;letter-spacing:.12em;color:var(--muted);padding-top:3px}
+.obj dd{margin:0;color:var(--ink-2)}
+
+table.ledger{
+  width:100%;border-collapse:collapse;margin:1.6em 0;font-size:14px;
+  background:var(--card);
+}
+table.ledger th,table.ledger td{
+  border-bottom:1px solid var(--line);padding:11px 12px;text-align:left;vertical-align:top;
+}
+table.ledger th{
+  font-family:var(--sans);font-size:11px;letter-spacing:.14em;
+  color:var(--muted);font-weight:600;border-bottom:1.5px solid var(--line-2);
+}
+table.ledger td:first-child{white-space:nowrap;color:var(--cinnabar);font-weight:600}
+
+.q{
+  margin:2.6em 0 1em;padding:26px 28px;background:var(--paper-2);
+  border:1px solid var(--line);position:relative;
+}
+.q::before{
+  content:"问";position:absolute;top:-14px;left:22px;background:var(--cinnabar);color:#fff;
+  font-size:12px;letter-spacing:.1em;padding:2px 10px;font-family:var(--sans);
+}
+.q p{margin:0;font-size:16.5px;line-height:2;color:var(--ink-2)}
+.q p + p{margin-top:.7em}
+
+.next{
+  max-width:760px;margin:0 auto;padding:0 clamp(18px,5vw,32px) 20px;
+}
+.next a{
+  display:block;padding:26px 26px;border:1px solid var(--line);background:var(--card);
+  color:var(--ink);transition:.18s;
+}
+.next a:hover{text-decoration:none;border-color:var(--cinnabar);box-shadow:var(--shadow)}
+.next .n{font-family:var(--sans);font-size:11px;letter-spacing:.28em;color:var(--cinnabar)}
+.next .t{display:block;margin-top:6px;font-size:20px;font-weight:600;letter-spacing:.05em}
+.next .d{display:block;margin-top:4px;font-size:13.5px;color:var(--muted)}
+
+.share{
+  max-width:760px;margin:0 auto;padding:16px clamp(18px,5vw,32px) 0;
+  display:flex;gap:10px;align-items:center;flex-wrap:wrap;
+}
+.share span{font-family:var(--sans);font-size:12px;color:var(--muted);letter-spacing:.1em}
+.share button{
+  font-family:var(--sans);font-size:12.5px;letter-spacing:.06em;
+  background:transparent;border:1px solid var(--line-2);color:var(--ink-2);
+  padding:7px 14px;border-radius:99px;cursor:pointer;
+}
+.share button:hover{border-color:var(--cinnabar);color:var(--cinnabar)}
+
+footer{
+  margin-top:70px;border-top:1px solid var(--line);
+  padding:40px clamp(18px,5vw,48px) 56px;text-align:center;
+  font-family:var(--sans);font-size:12.5px;color:var(--muted);line-height:2;
+}
+footer .mark{font-family:var(--serif);font-size:20px;letter-spacing:.3em;color:var(--ink-2);margin-bottom:10px}
+footer a{color:var(--muted);border-bottom:1px solid var(--line-2)}
+footer a:hover{color:var(--cinnabar);text-decoration:none}
+
+.reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}
+.reveal.in{opacity:1;transform:none}
+
+@media (max-width:480px){
+  .hero h1{font-size:46px;letter-spacing:.03em}
+  .kicker{letter-spacing:.24em;font-size:10.5px}
+  .hero{padding-top:10vh}
+  .hero-art{object-position:70% bottom}
+}
+@media (max-width:760px){
+  .toc{grid-template-columns:1fr}
+  .hero{min-height:78vh;padding-bottom:20vh}
+  .hero-art{height:62%}
+  nav.top .links a{padding:5px 8px}
+  blockquote{padding:18px 18px;font-size:15.5px}
+  .obj dl{grid-template-columns:1fr;gap:2px 0}
+  .obj dt{padding-top:8px}
+  table.ledger{font-size:13px}
+  table.ledger th,table.ledger td{padding:9px 8px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .reveal{opacity:1;transform:none;transition:none}
+}
+@media print{
+  #progress,nav.top,.share,.next,.cta{display:none!important}
+  body{background:#fff}
+  .hero{min-height:auto;padding:20mm 0 10mm}
+  .hero-art{display:none}
+  article{max-width:none}
+  .lec{break-inside:avoid}
+}
+</style>
+</head>
+<body>
+<div id="progress"></div>
+
+<nav class="top">
+  <div class="brand">山海经 <b>二十讲</b></div>
+  <div class="links">
+    <a href="#toc">目录</a>
+    <a href="#lec-00">00 导论</a>
+    <a href="#lec-01">01 南山经</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <img class="hero-art" src="assets/hero.svg" alt="">
+  <div class="hero-inner">
+    <p class="kicker">Shan Hai Jing · Twenty Lectures</p>
+    <h1>山海经<span>二十讲</span></h1>
+    <p class="sub">一部被读了两千年的书，<em>我们从头再读一遍</em>。</p>
+    <p class="meta">按十八卷顺序 · 共二十讲 · 第一季已更新 <b>00–01</b></p>
+    <a class="cta" href="#toc">从目录开始
+      <svg viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+    </a>
+  </div>
+</header>
+
+<section class="block" id="toc">
+  <div class="sec-head reveal">
+    <div class="no">CONTENTS / 目录</div>
+    <h2>十八卷，一卷一讲</h2>
+    <p>不按主题切，不按神兽切，跟着原书的卷次走。第一季先公开导论与南山经，其余各讲随更新解锁。</p>
+  </div>
+  <div class="toc">
+    <a class="lec reveal" href="#lec-00"><span class="num">00</span><span class="body"><strong>导论</strong><em>一张三千年前的地图，该怎么读</em></span><span class="state open">已更新</span></a>
+    <a class="lec reveal" href="#lec-01"><span class="num">01</span><span class="body"><strong>南山经</strong><em>南方三列山系：草木、金玉与鸟兽</em></span><span class="state open">已更新</span></a>
+    <div class="lec locked reveal"><span class="num">02</span><span class="body"><strong>西山经</strong><em>从钱来山到翼望山：昆仑与玉山</em></span><span class="state">待讲</span></div>
+    <div class="lec locked reveal"><span class="num">03</span><span class="body"><strong>北山经</strong><em>北方三列山系：水、鱼与填海的鸟</em></span><span class="state">待讲</span></div>
+    <div class="lec locked reveal"><span class="num">04</span><span class="body"><strong>东山经</strong><em>东方四列山系：人面兽与旱年</em></span><span class="state">待讲</span></div>
+    <div class="lec locked reveal"><span class="num">05</span><span class="body"><strong>中山经</strong><em>中部十二列山系：一本药草总账</em></span><span class="state">待讲</span></div>
+    <div class="lec locked reveal"><span class="num">06</span><span class="body"><strong>海外南经</strong><em>南方海外：身体长成别的样子</em></span><span class="state">待讲</span></div>
+    <div class="lec locked reveal"><span class="num">07</span><span class="body"><strong>海外西经</strong><em>西方海外：断首之后</em></span><span class="state">待讲</span></div>
+    <div class="lec locked reveal"><span class="num">08</span><span class="body"><strong>海外北经</strong><em>北方海外：走到渴死为止</em></span><span class="state">待讲</span></div>
+    <div class="lec locked reveal"><span class="num">09</span><span class="body"><strong>海外东经</strong><em>东方海外：日出之处的秩序</em></span><span class="state">待讲</span></div>
+    <div class="lec locked reveal"><span class="num">10</span><span class="body"><strong>海内南经</strong><em>南方海内：一条蛇吞掉一头象</em></span><span class="state">待讲</span></div>
+    <div class="lec locked reveal"><span class="num">11</span><span class="body"><strong>海内西经</strong><em>西方海内：神山的门禁</em></span><span class="state">待讲</span></div>
+    <div class="lec locked reveal"><span class="num">12</span><span class="body"><strong>海内北经</strong><em>北方海内：到不了的地方</em></span><span class="state">待讲</span></div>
+    <div class="lec locked reveal"><span class="num">13</span><span class="body"><strong>海内东经</strong><em>东方海内：雷与台</em></span><span class="state">待讲</span></div>
+    <div class="lec locked reveal"><span class="num">14</span><span class="body"><strong>大荒东经</strong><em>大荒东：日月升起的地方</em></span><span class="state">待讲</span></div>
+    <div class="lec locked reveal"><span class="num">15</span><span class="body"><strong>大荒南经</strong><em>大荒南：太阳洗澡的水</em></span><span class="state">待讲</span></div>
+    <div class="lec locked reveal"><span class="num">16</span><span class="body"><strong>大荒西经</strong><em>大荒西：日月落下的地方</em></span><span class="state">待讲</span></div>
+    <div class="lec locked reveal"><span class="num">17</span><span class="body"><strong>大荒北经</strong><em>大荒北：旱、火与不熄的夜</em></span><span class="state">待讲</span></div>
+    <div class="lec locked reveal"><span class="num">18</span><span class="body"><strong>海内经</strong><em>海内之中：最后的丰饶</em></span><span class="state">待讲</span></div>
+    <div class="lec locked reveal"><span class="num">19</span><span class="body"><strong>结语</strong><em>读完这本书之后</em></span><span class="state">待讲</span></div>
+  </div>
+</section>
+
+<article id="lec-00">
+  <div class="lec-head">
+    <div class="big">00</div>
+    <div class="tag">导论 · INTRODUCTION</div>
+    <h2>一张三千年前的地图，该怎么读</h2>
+    <p class="lead">在走进第一座山之前，先说清楚这本书长什么样、历来怎么读、我们打算怎么读。</p>
+    <div class="read"><span><i class="dot"></i>约 12 分钟</span><span>十八卷 · 三万一千字</span><span>第一季</span></div>
+  </div>
+
+  <div class="keybox">
+    <b>本讲要点</b>
+    <ul>
+      <li>《山海经》十八卷，不是一次写成，也不是一个人写的</li>
+      <li>历来三种读法：找地理、看神话、查物产</li>
+      <li>本课换一种读法：先把它当账本读</li>
+      <li>账本三问：谁记的、记给谁、为什么偏偏记这一笔</li>
+    </ul>
+  </div>
+
+  <h3><span class="hn">一</span>这本书长什么样</h3>
+  <p>《山海经》十八卷，三万余字。听起来不多，但它是中国最早的一部“不写人”的书——不写帝王将相，不写朝代兴衰，写的是山、水、草木、鸟兽、玉石，以及这些东西和人的关系。</p>
+  <p>十八卷分成四组：</p>
+  <p><b>山经</b>五卷：南山经、西山经、北山经、东山经、中山经。按方位分，是全书最古的部分。<br>
+  <b>海外经</b>四卷：海外南、西、北、东。写“海外”的国与人。<br>
+  <b>海内经</b>四卷：海内南、西、北、东。写“海内”的山川与神。<br>
+  <b>大荒经</b>四卷，加上末卷《海内经》：大荒东、南、西、北。是全书最晚成篇的部分。</p>
+  <p>它不是一个人写的，也不是一个时代写的。从战国到汉初，一层一层加上去。今天我们看到的样子，是西汉刘向、刘歆父子校订，东晋郭璞作注之后定下来的。</p>
+  <p>这一点很重要：你读到的不是一份原始档案，是一份被整理过很多次的档案。整理的人有他的次序，有他的取舍，也有他那个时代对“什么值得记”的看法。</p>
+
+  <figure class="reveal">
+    <img src="assets/structure.svg" alt="《山海经》十八卷结构图：山经五卷、海外经四卷、海内经四卷、大荒经四卷与末卷海内经">
+    <figcaption>十八卷的骨架 · 山经最古，大荒最晚</figcaption>
+  </figure>
+
+  <h3><span class="hn">二</span>历来三种读法</h3>
+  <p><b>第一种，把它当地理书。</b>找昆仑，找黑水，找不周山，找招摇之山在今天哪个县。找了两千年，越找越对不上。不是古人写错了，是这本书本来就不是按经纬度写的。</p>
+  <p><b>第二种，把它当神话集。</b>夸父逐日、精卫填海、刑天舞干戚，都从这里来。故事好看，但故事只是书里很小的一部分。全书三万字，真正称得上“神话”的段落，加起来不到十分之一。</p>
+  <p><b>第三种，把它当博物志或巫术书。</b>草木鸟兽，哪些能吃，哪些能佩，哪些见了就有灾。这一派最接近原书的语气，但常常止步于“奇物”二字，看完只记得一堆怪名字。</p>
+  <p>三种读法各有道理，也各有各的执着：第一种执着于坐标，第二种执着于故事，第三种执着于奇。</p>
+  <p>执着本身不是错。错的是，执着久了，就忘了问一句：写这本书的人，当时在干什么？</p>
+
+  <h3><span class="hn">三</span>我们换一种读法</h3>
+  <p>先不急着问“这是真的吗”，先问三个更小的问题：</p>
+  <p><b>谁记的？</b> <b>记给谁看？</b> <b>为什么偏偏记这一笔？</b></p>
+  <p>然后注意三样东西。</p>
+  <p><b>动词。</b>全书反复出现几个字：食、佩、服、见、可以已、可以为。这些字后面跟着的，往往是全篇最实在的信息。“食之不饥”“佩之不迷”“食之善走”——不是形容，是用法。</p>
+  <p><b>物产。</b>“多桂”“多金玉”“多水”“多竹”。这些“多”字不是修辞，是清单。清单的意思是：这里有，可以来拿。</p>
+  <p><b>方位。</b>“又东三百里”“又南三百里”。方向、距离、水源、出口。这不是坐在屋里想出来的，是走出来的。</p>
+  <p>把这三样放在一起，这本书的样子会变。它不像一部神话，更像一本账。</p>
+  <p>一本什么账？记的是：走到一座山，有什么能用，有什么要躲，要拿什么去换平安。</p>
+  <p>账本不抒情，也不解释。它只记。正因为只记，它比后来所有转述都可靠。</p>
+
+  <h3><span class="hn">四</span>读的时候，请暂时忘掉三件事</h3>
+  <p><b>忘掉后世给这些名字添加的故事。</b>九尾狐在后来的书里是祥瑞，是妖姬，是祸水。但在第一手的记录里，它首先是一种动物。先看它原来是什么，再看它后来被说成什么，顺序不能反。</p>
+  <p><b>忘掉字典里那些太整齐的解释。</b>“佩”在今天是一个文雅的字，玉佩、佩服、钦佩。但在没有衣带的年代，“佩”要先解决一个物理问题：怎么把一块石头固定在身上。</p>
+  <p><b>忘掉“古人很神秘”这个印象。</b>古人首先要吃饭，要走路，要躲雨，要治肚子疼。他们记下来的，多半是这些事。神秘是我们后来加上去的。</p>
+
+  <div class="q">
+    <p>如果这本书是一本账本，那么记账的人，最怕什么？</p>
+    <p class="small">不用急着回答。等走完南山经的十座山，再回头看这个问题。</p>
+  </div>
+</article>
+<article id="lec-01">
+  <div class="lec-head">
+    <div class="big">01</div>
+    <div class="tag">南山经 · NAN SHAN JING</div>
+    <h2>南方三列山系：草木、金玉与鸟兽</h2>
+    <p class="lead">全书的第一卷，第一座山，第一句写的是草木，不是神。我们就从这里开始。</p>
+    <div class="read"><span><i class="dot"></i>约 18 分钟</span><span>十座山 · 二千九百五十里</span><span>第一季</span></div>
+  </div>
+
+  <div class="keybox">
+    <b>本讲要点</b>
+    <ul>
+      <li>南山经分三列山系，开篇十山为第一列</li>
+      <li>全书第一批“食之”“佩之”的记录，都在这十座山里</li>
+      <li>一卷之内有三种写法：清单、未知、支出</li>
+      <li>先看原文写了什么，再看后人添了什么</li>
+    </ul>
+  </div>
+
+  <blockquote>
+    <p>南山经之首曰䧿山。其首曰招摇之山，临于西海之上，多桂，多金玉。有草焉，其状如韭而青华，其名曰祝余，食之不饥。有木焉，其状如榖而黑理，其华四照，其名曰迷榖，佩之不迷。有兽焉，其状如禺而白耳，伏行人走，其名曰狌狌，食之善走。丽麂之水出焉，而西流注于海，其中多育沛，佩之无瘕疾。</p>
+    <cite>《山海经·南山经》</cite>
+  </blockquote>
+
+  <h3><span class="hn">一</span>招摇之山：第一句为什么写草木</h3>
+  <p>“临于西海之上。”一座山，站在海边。</p>
+  <p>“多桂，多金玉。”两种物产：香的，硬的。</p>
+  <p>然后才是三样东西：草、木、兽，外加一条水。</p>
+  <p>顺序值得注意：先桂，后金玉，再草，再木，再兽，最后水。这不是随手写的。桂是乔木，金玉是矿物，草在脚下，木在身边，兽在远处，水在最后——这是一双眼睛从远到近、从大到小扫过去的顺序。</p>
+  <p>写书的人先看见山，再看见树，再低头看见草，最后才蹲下去看水里的石头。</p>
+
+  <h4>祝余</h4>
+  <blockquote><p>有草焉，其状如韭而青华，其名曰祝余，食之不饥。</p></blockquote>
+  <figure class="reveal">
+    <img src="assets/zhuyu.svg" alt="祝余线描：细长的韭叶、青色小花，土中一截球茎与须根">
+    <figcaption>祝余 · 其状如韭而青华，食之不饥</figcaption>
+  </figure>
+  <p>“如韭”，叶子像韭菜，细长，丛生。“青华”，开青色的花。</p>
+  <p>这十一个字里，没有一个字提到它的根。但“食之不饥”四个字，把答案指到了地下。</p>
+  <p>韭菜的叶子嚼不出饱。能让人不饿的，是埋在土里的那一截。</p>
+  <p>后世的本草书里，祝余常被比作野芋、山药一类的东西。这类植物的地下块茎富含淀粉，是荒野里最直接的热量。生吃会麻口，喉咙发刺，得用灰煨、用火烤，等它软了再吃。</p>
+  <p>一条记录，八个字：“其状如韭而青华，食之不饥。”写的人没有说它长在土里多深，没有说怎么去麻，只说了一句“吃了不饿”。因为他知道，看见这句话的人，自己会去挖。</p>
+  <aside class="obj">
+    <div class="obj-h"><span class="obj-name">祝余</span><span class="obj-tag">草</span></div>
+    <dl>
+      <dt>原文</dt><dd>其状如韭而青华，食之不饥。</dd>
+      <dt>今解</dt><dd>一说为野芋、山药一类的地下块茎植物。</dd>
+      <dt>用法</dt><dd>块茎富含淀粉；生食麻口，需灰煨或火烤。</dd>
+      <dt>后世</dt><dd>被列为仙草，谓食之可辟谷。</dd>
+    </dl>
+  </aside>
+
+  <h4>迷榖</h4>
+  <blockquote><p>有木焉，其状如榖而黑理，其华四照，其名曰迷榖，佩之不迷。</p></blockquote>
+  <figure class="reveal">
+    <img src="assets/migu.svg" alt="迷榖线描：黑色木理的树干，四散的花，周围有气味的波纹">
+    <figcaption>迷榖 · 其状如榖而黑理，其华四照，佩之不迷</figcaption>
+  </figure>
+  <p>“榖”是构树，树皮可以剥下来做布。“黑理”，木纹是黑的。“其华四照”，花开得四面都亮。</p>
+  <p>一种树，叶子揉碎了有强烈的气味。这种气味在湿热的地方有多重要，走过南方林子的人都知道：蚊虫不近，头脑清醒。</p>
+  <p>“佩之不迷”。迷，可以是迷路，也可以是心神迷乱。这两个意思，在荒野里其实是一件事：方向感一失，人就完了。</p>
+  <p>后世把“迷榖”写成“迷谷”，说它生长在招摇之山，佩戴它的花就不会迷路。再往后，它进了小说，成了君子国里的道具。名字越传越雅，原本那股冲鼻子的气味，反倒没人提了。</p>
+  <aside class="obj">
+    <div class="obj-h"><span class="obj-name">迷榖</span><span class="obj-tag">木</span></div>
+    <dl>
+      <dt>原文</dt><dd>其状如榖而黑理，其华四照，佩之不迷。</dd>
+      <dt>今解</dt><dd>一说为樟科、芸香科一类含挥发油的香木。</dd>
+      <dt>用法</dt><dd>叶、花揉碎有强烈香气；佩带、涂抹或随身携带。</dd>
+      <dt>后世</dt><dd>写作“迷谷”，渐变为“不迷路”的祥瑞之木。</dd>
+    </dl>
+  </aside>
+
+  <h4>育沛</h4>
+  <blockquote><p>丽麂之水出焉，而西流注于海，其中多育沛，佩之无瘕疾。</p></blockquote>
+  <figure class="reveal">
+    <img src="assets/yupei.svg" alt="育沛线描：一条从山间流下的水，水底三块被磨圆的石头">
+    <figcaption>育沛 · 丽麂之水西流注于海，其中多育沛</figcaption>
+  </figure>
+  <p>水从山上下来，往西流入海。水底有东西。</p>
+  <p>“育沛”是什么，历来没有定论。有人说是琥珀，有人说是玛瑙，有人说是江里的珠贝。共同点是：水冲出来的、圆的、硬的、好看的石头。</p>
+  <p>“瘕”，肚子里有结块，按下去会动。寄生虫、疟疾、肠梗阻，都可能。</p>
+  <p>一块石头当然治不了这些。但一块被水磨圆的石头，贴在皮肤上，是温的；压在手腕上，是沉的。它一直在那儿。你能摸到它。</p>
+  <p>更要紧的是“佩”这个动作。那个时代没有腰带，没有荷包，没有丝线。你身上可能只有一块兽皮，或者什么都没有。要让一块石头“佩”在身上，只能是：用骨针钻孔，穿一根筋；用树皮纤维绑在手腕上；或者，用烧热的石片在皮肤上烫一个疤，把石头嵌进去。</p>
+  <aside class="obj">
+    <div class="obj-h"><span class="obj-name">育沛</span><span class="obj-tag">水石</span></div>
+    <dl>
+      <dt>原文</dt><dd>丽麂之水出焉，而西流注于海，其中多育沛，佩之无瘕疾。</dd>
+      <dt>今解</dt><dd>一说为琥珀、玛瑙或水冲珠贝一类硬质物。</dd>
+      <dt>用法</dt><dd>钻孔穿筋、纤维绑扎，或嵌于皮肤。</dd>
+      <dt>后世</dt><dd>“琥珀”入本草，谓安五脏、定魂魄；今为饰品。</dd>
+    </dl>
+  </aside>
+
+  <h4>狌狌</h4>
+  <blockquote><p>有兽焉，其状如禺而白耳，伏行人走，其名曰狌狌，食之善走。</p></blockquote>
+  <figure class="reveal">
+    <img src="assets/xingxing.svg" alt="狌狌线描：一只白耳、伏身疾走的猿">
+    <figcaption>狌狌 · 其状如禺而白耳，伏行人走，食之善走</figcaption>
+  </figure>
+  <p>像猴子，白耳朵。能伏着走，也能站起来跑。</p>
+  <p>“食之善走”。吃了它的肉，就能跑。</p>
+  <p>这是全书第一批“吃什么补什么”的记录。听起来像巫术，其实是最朴素的观察：一种能在林子里跑得飞快的动物，它的肉，也许能把那种力气传过来。</p>
+  <p>换个角度：在那个时代，能跑，意味着能追上猎物，也意味着能逃开猛兽。善走，是活命。</p>
+  <aside class="obj">
+    <div class="obj-h"><span class="obj-name">狌狌</span><span class="obj-tag">兽</span></div>
+    <dl>
+      <dt>原文</dt><dd>其状如禺而白耳，伏行人走，食之善走。</dd>
+      <dt>今解</dt><dd>猿猴一类；“禺”即猴属。</dd>
+      <dt>用法</dt><dd>肉可食；记其“善走”之效。</dd>
+      <dt>后世</dt><dd>演为“猩猩”，又有嗜酒、穿鞋被擒的故事。</dd>
+    </dl>
+  </aside>
+
+  <h3><span class="hn">二</span>堂庭之山：一段只有“多”的清单</h3>
+  <blockquote><p>又东三百里，曰堂庭之山，多棪木，多白猿，多水玉，多黄金。</p></blockquote>
+  <p>四样东西，四个“多”。</p>
+  <p>没有动词，没有故事，没有“食之”“佩之”。</p>
+  <p>这是账本的另一种写法：只记有什么，不记怎么用。</p>
+  <p>棪木，一种果子可以吃的树。白猿，白色的猿。水玉，水晶。黄金，金子。</p>
+  <p>这一段读起来最枯燥，但它最诚实：不是每座山都有故事。有些山，就是一堆物产。</p>
+
+  <h3><span class="hn">三</span>即翼之山：一山怪物，一个名字也没有</h3>
+  <blockquote><p>又东三百八十里，曰即翼之山，其中多怪兽，多怪鱼，多白玉，多蝮虫，多怪蛇，多怪木，不可以上。</p></blockquote>
+  <p>六个“多”，六个“怪”。</p>
+  <p>怪兽、怪鱼、怪蛇、怪木——全是“怪”，没有一个具体的名字。</p>
+  <p>“不可以上”。上不去。</p>
+  <p>这是全书第一次出现“去不了”的记录。写的人走到这里，停下了。他能看见山，能看见水里的东西在动，但他叫不出名字，也上不去。</p>
+  <p>于是他就写：怪。</p>
+  <p>这一段是账本的第三种写法：未知项。承认自己不知道，也是一种记录。</p>
+
+  <h3><span class="hn">四</span>青丘之山：九尾狐、灌灌、赤鱬</h3>
+  <blockquote><p>又东三百里，曰青丘之山，其阳多玉，其阴多青䨼。有兽焉，其状如狐而九尾，其音如婴儿，能食人，食者不蛊。有鸟焉，其状如鸠，其音若呵，名曰灌灌，佩之不惑。英水出焉，南流注于即翼之泽。其中多赤鱬，其状如鱼而人面，其音如鸳鸯，食之不疥。</p></blockquote>
+
+  <h4>九尾狐</h4>
+  <figure class="reveal">
+    <img src="assets/jiuweihu.svg" alt="九尾狐线描：一只侧身的狐，九条尾巴在身后展开">
+    <figcaption>九尾狐 · 其状如狐而九尾，其音如婴儿</figcaption>
+  </figure>
+  <p>“其状如狐而九尾。”九条尾巴。</p>
+  <p>“其音如婴儿。”叫声像婴儿。</p>
+  <p>“能食人。”会吃人。</p>
+  <p>“食者不蛊。”吃了它的人，不会被蛊毒所害。</p>
+  <p>四句话，四个信息：样子、声音、危险、用途。</p>
+  <p>后世的九尾狐，是祥瑞，是妖姬，是祸水。但在这一行字里，它只是一种会吃人的、叫声像婴儿的、可以吃的动物。</p>
+  <p>“蛊”，一般指蛊毒，也可以指腹中的寄生虫。吃了它就不中蛊——这句话和“食之不饥”“食之不疥”是同一个句式。</p>
+  <p>同一种动物，在同一个句子里，既是威胁，又是药。这在《山海经》里很常见：危险和用途，从来不分开写。</p>
+  <aside class="obj">
+    <div class="obj-h"><span class="obj-name">九尾狐</span><span class="obj-tag">兽</span></div>
+    <dl>
+      <dt>原文</dt><dd>其状如狐而九尾，其音如婴儿，能食人，食者不蛊。</dd>
+      <dt>今解</dt><dd>狐属；“九尾”或指多尾、大尾，亦为特征夸张。</dd>
+      <dt>用法</dt><dd>肉可食；记其“不蛊”之效。</dd>
+      <dt>后世</dt><dd>由祥瑞而妖异，成为叙事与图像中的固定符号。</dd>
+    </dl>
+  </aside>
+
+  <h4>灌灌</h4>
+  <figure class="reveal">
+    <img src="assets/guanguan.svg" alt="灌灌线描：一只像斑鸠的鸟，口中呼出三道气">
+    <figcaption>灌灌 · 其状如鸠，其音若呵，佩之不惑</figcaption>
+  </figure>
+  <p>像斑鸠，叫声像人在呵气。</p>
+  <p>“佩之不惑”。把它带在身上，不迷惑。</p>
+  <p>“惑”和“迷”是近义词。前面迷榖“佩之不迷”，这里灌灌“佩之不惑”。同一卷里，两次出现“佩了就不会迷失”的记录。</p>
+  <p>在一个没有路标的世界里，神志清醒是一件需要外物帮忙的事。这句话，写的人没有说，但两处重复已经说完了。</p>
+  <aside class="obj">
+    <div class="obj-h"><span class="obj-name">灌灌</span><span class="obj-tag">鸟</span></div>
+    <dl>
+      <dt>原文</dt><dd>其状如鸠，其音若呵，名曰灌灌，佩之不惑。</dd>
+      <dt>今解</dt><dd>鸠鸽一类；其鸣声被记作“呵”。</dd>
+      <dt>用法</dt><dd>羽毛或整体佩带。</dd>
+      <dt>后世</dt><dd>注家多以“惑”为迷乱，佩之可解。</dd>
+    </dl>
+  </aside>
+
+  <h4>赤鱬</h4>
+  <figure class="reveal">
+    <img src="assets/chiru.svg" alt="赤鱬线描：鱼身人面，身下有水纹">
+    <figcaption>赤鱬 · 其状如鱼而人面，其音如鸳鸯，食之不疥</figcaption>
+  </figure>
+  <p>鱼的身子，人的脸。叫声像鸳鸯。</p>
+  <p>“食之不疥”。疥，皮肤病，也可能是疥疮。</p>
+  <p>一条人面鱼，吃了不长疥疮。听起来荒诞。但鱼油、鱼皮、鱼肉，在缺少脂肪的饮食里，确实能治一些皮肤问题。</p>
+  <p>“人面”两个字，是全书里第一次出现“半人半兽”的写法。后面还有的是。先记住这一条：它出现在一条可以吃的鱼身上。</p>
+  <aside class="obj">
+    <div class="obj-h"><span class="obj-name">赤鱬</span><span class="obj-tag">鱼</span></div>
+    <dl>
+      <dt>原文</dt><dd>其状如鱼而人面，其音如鸳鸯，食之不疥。</dd>
+      <dt>今解</dt><dd>一说为鲵（娃娃鱼）一类；人面为特征描述。</dd>
+      <dt>用法</dt><dd>肉、脂可食；记其“不疥”之效。</dd>
+      <dt>后世</dt><dd>人面鱼形象进入志怪与图像传统。</dd>
+    </dl>
+  </aside>
+
+  <h3><span class="hn">五</span>箕尾之山：一笔支出</h3>
+  <blockquote>
+    <p>又东三百五十里，曰箕尾之山，其尾踆于东海，多沙石。汸水出焉，而南流注于淯，其中多白玉。</p>
+    <p>凡䧿山之首，自招摇之山以至箕尾之山，凡十山，二千九百五十里。其神状皆鸟身而龙首。其祠之礼：毛用一璋玉瘗，糈用稌米，一璧，稻米，白菅为席。</p>
+    <cite>《山海经·南山经》</cite>
+  </blockquote>
+  <p>十座山，二千九百五十里。这是第一列山系的账。</p>
+  <p>然后是神：鸟的身子，龙的头。</p>
+  <p>然后是祭祀：毛（牲畜）用一块璋玉一起埋下去，糈（祭神用的精米）用稻米，一块璧，白茅草编的席子。</p>
+  <p>玉、米、席。三样东西。</p>
+  <p>账本记到这里，第一次出现了“支出”。</p>
+  <p>前面记的是收入：什么能吃，什么能佩，什么能换。这里记的是付出：为了平安走下一段路，要拿出什么。</p>
+  <p>十座山走完，要把玉埋进土里，把米撒出去，把席子铺好。然后继续往东。</p>
+
+  <h3><span class="hn">六</span>这一卷的账</h3>
+  <table class="ledger">
+    <thead><tr><th>类别</th><th>条目</th><th>原文</th></tr></thead>
+    <tbody>
+      <tr><td>食物</td><td>祝余、狌狌、九尾狐、赤鱬</td><td>食之不饥 / 善走 / 不蛊 / 不疥</td></tr>
+      <tr><td>随身</td><td>迷榖、育沛、灌灌</td><td>佩之不迷 / 无瘕疾 / 不惑</td></tr>
+      <tr><td>危险</td><td>蝮虫、怪蛇、九尾狐</td><td>能食人 / 不可以上</td></tr>
+      <tr><td>支出</td><td>璋玉、稌米、璧、白菅</td><td>祠之礼</td></tr>
+    </tbody>
+  </table>
+  <p>十座山，二千九百五十里，记下来的是这些。</p>
+  <p>没有一处提到神仙的住处，没有一处提到不死药，没有一处提到谁赢了谁。</p>
+  <p>只有：走下去，吃什么，带什么，躲什么，拿什么去换。</p>
+
+  <div class="q">
+    <p>第一卷记了十座山。哪一座，你觉得住着最舒服？哪一座，你最不想去？</p>
+    <p class="small">先别查资料，就凭这一卷里写的东西，说说为什么。</p>
+  </div>
+</article>
+<div class="next">
+  <a href="#toc">
+    <span class="n">NEXT / 第二讲</span>
+    <span class="t">西山经 · 从钱来山到翼望山</span>
+    <span class="d">昆仑、玉山、西王母，以及高原上的毒虫与缺氧。待更新。</span>
+  </a>
+</div>
+
+<div class="share">
+  <span>分享这一讲</span>
+  <button id="shareBtn" type="button">复制链接</button>
+  <button id="shareNative" type="button" hidden>分享</button>
+</div>
+
+<footer>
+  <div class="mark">山海经二十讲</div>
+  <p>按十八卷顺序通读 · 第一季 00–01</p>
+  <p>
+    <a href="https://github.com/syu-toutousai/shanhaijing-20">源仓库</a> ·
+    <a href="https://syu-toutousai.github.io/">返回资料站</a> ·
+    <a href="#toc">回到目录</a>
+  </p>
+  <p>图版为自制线描，原文依通行本，注释参酌旧注与近人研究。</p>
+</footer>
+
+<script>
+(function(){
+  var bar = document.getElementById('progress');
+  function onScroll(){
+    var h = document.documentElement;
+    var max = h.scrollHeight - h.clientHeight;
+    var p = max > 0 ? (h.scrollTop || document.body.scrollTop) / max : 0;
+    bar.style.width = (p * 100).toFixed(2) + '%';
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+
+  var links = Array.prototype.slice.call(document.querySelectorAll('nav.top .links a'));
+  var targets = links.map(function(a){ return document.querySelector(a.getAttribute('href')); });
+  if ('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (e.isIntersecting){
+          var i = targets.indexOf(e.target);
+          links.forEach(function(l,j){ l.classList.toggle('on', i === j); });
+        }
+      });
+    }, {rootMargin:'-45% 0px -50% 0px'});
+    targets.forEach(function(t){ if (t) io.observe(t); });
+  }
+
+  var revs = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    var ro = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (e.isIntersecting){ e.target.classList.add('in'); ro.unobserve(e.target); }
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:0.05});
+    revs.forEach(function(el){ ro.observe(el); });
+  } else {
+    revs.forEach(function(el){ el.classList.add('in'); });
+  }
+
+  var btn = document.getElementById('shareBtn');
+  btn.addEventListener('click', function(){
+    var url = location.origin + location.pathname;
+    var done = function(){
+      var t = btn.textContent;
+      btn.textContent = '已复制';
+      setTimeout(function(){ btn.textContent = t; }, 1600);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(url).then(done, done);
+    } else {
+      var ta = document.createElement('textarea');
+      ta.value = url; document.body.appendChild(ta); ta.select();
+      try { document.execCommand('copy'); } catch(e){}
+      document.body.removeChild(ta); done();
+    }
+  });
+
+  var nb = document.getElementById('shareNative');
+  if (navigator.share){
+    nb.hidden = false;
+    nb.addEventListener('click', function(){
+      navigator.share({
+        title: document.title,
+        text: '山海经二十讲 · 从头再读一遍',
+        url: location.href
+      }).catch(function(){});
+    });
+  }
+})();
+</script>
+</body>
+</html>

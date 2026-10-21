@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" role="img" aria-labelledby="t d">
+<title id="t">祝余</title>
+<desc id="d">线描：韭叶、青花、土中的球茎与须根。</desc>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="210" cy="252" rx="38" ry="25" fill="#e7d9bc" stroke="#7c6a4c" stroke-width="2"/>
+  <path d="M182 244 q28 -12 56 0" stroke="#b9a583" stroke-width="1.4"/>
+  <path d="M176 250 q-18 20 -26 40 M190 266 q-10 18 -14 32 M210 276 q-2 16 2 28 M230 266 q10 18 14 32 M244 250 q18 20 26 40"
+        stroke="#8b7a5c" stroke-width="1.5"/>
+
+  <path d="M196 232 C186 190 170 150 152 96" stroke="#4f6d61" stroke-width="3.4"/>
+  <path d="M206 230 C204 184 200 138 198 78" stroke="#4f6d61" stroke-width="3.4"/>
+  <path d="M216 230 C222 186 230 142 244 88" stroke="#4f6d61" stroke-width="3.4"/>
+  <path d="M224 232 C238 196 258 162 282 118" stroke="#4f6d61" stroke-width="3.2"/>
+  <path d="M190 232 C176 200 158 174 132 144" stroke="#4f6d61" stroke-width="3"/>
+
+  <g stroke="#5f8177" stroke-width="1.1" opacity="0.75">
+    <path d="M152 96 q-6 -18 2 -34"/>
+    <path d="M198 78 q-2 -18 4 -32"/>
+    <path d="M244 88 q6 -16 2 -32"/>
+    <path d="M282 118 q10 -14 10 -28"/>
+    <path d="M132 144 q-12 -10 -16 -24"/>
+  </g>
+
+  <g stroke="#5e8b96" fill="#9fc0c6">
+    <circle cx="154" cy="56" r="5.2"/>
+    <circle cx="202" cy="40" r="5.2"/>
+    <circle cx="248" cy="50" r="5.2"/>
+    <circle cx="294" cy="84" r="5.2"/>
+    <circle cx="112" cy="114" r="5.2"/>
+  </g>
+  <g stroke="#5e8b96" stroke-width="1" opacity="0.9">
+    <path d="M154 51 v-7 M202 35 v-7 M248 45 v-7 M294 79 v-7 M112 109 v-7"/>
+  </g>
+
+  <path d="M14 238 Q110 230 206 236 T404 232" stroke="#a3937a" stroke-width="1.8" fill="none"/>
+  <path d="M150 238 Q180 228 210 230 Q244 228 270 238" stroke="#c4b294" stroke-width="1.3" fill="none"/>
+  <g stroke="#8b7c63" stroke-width="1.2" opacity="0.65" fill="none">
+    <path d="M46 248 h10 M78 258 h14 M120 250 h8 M238 262 h12 M296 248 h10 M334 256 h14"/>
+    <circle cx="106" cy="266" r="1.6" fill="#8b7c63" stroke="none"/>
+    <circle cx="190" cy="276" r="1.6" fill="#8b7c63" stroke="none"/>
+    <circle cx="286" cy="274" r="1.6" fill="#8b7c63" stroke="none"/>
+  </g>
+</g>
+</svg>

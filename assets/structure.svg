@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-labelledby="t d">
+<title id="t">《山海经》十八卷结构</title>
+<desc id="d">五卷山经、四卷海外经、四卷海内经、四卷大荒经与末卷海内经，共十八卷。</desc>
+<defs>
+  <style>
+    .vol{font-family:"Noto Serif CJK SC","Songti SC",serif;fill:#f8f3e8}
+    .grp{font-family:"Noto Serif CJK SC","Songti SC",serif;font-size:16px;fill:#6b6356;letter-spacing:3px}
+    .note{font-family:"Noto Serif CJK SC","Songti SC",serif;font-size:12px;fill:#948a78}
+  </style>
+</defs>
+
+<text x="24" y="30" class="grp">山　经　五卷</text>
+<text x="790" y="30" class="note" text-anchor="end">最古 · 按方位分</text>
+<g>
+  <rect x="150" y="44" width="620" height="24" rx="3" fill="#4f6d61"/>
+  <text x="460" y="61" class="vol" font-size="13" text-anchor="middle">南山经</text>
+  <rect x="150" y="74" width="620" height="24" rx="3" fill="#5a786b"/>
+  <text x="460" y="91" class="vol" font-size="13" text-anchor="middle">西山经</text>
+  <rect x="150" y="104" width="620" height="24" rx="3" fill="#658274"/>
+  <text x="460" y="121" class="vol" font-size="13" text-anchor="middle">北山经</text>
+  <rect x="150" y="134" width="620" height="24" rx="3" fill="#708c7d"/>
+  <text x="460" y="151" class="vol" font-size="13" text-anchor="middle">东山经</text>
+  <rect x="150" y="164" width="620" height="24" rx="3" fill="#7b9687"/>
+  <text x="460" y="181" class="vol" font-size="13" text-anchor="middle">中山经</text>
+</g>
+
+<text x="24" y="226" class="grp">海外经　四卷</text>
+<text x="790" y="226" class="note" text-anchor="end">海外四方 · 国与人</text>
+<g>
+  <rect x="150" y="240" width="620" height="24" rx="3" fill="#9a7a46"/>
+  <text x="460" y="257" class="vol" font-size="13" text-anchor="middle">海外南经</text>
+  <rect x="150" y="270" width="620" height="24" rx="3" fill="#a48350"/>
+  <text x="460" y="287" class="vol" font-size="13" text-anchor="middle">海外西经</text>
+  <rect x="150" y="300" width="620" height="24" rx="3" fill="#ae8c5a"/>
+  <text x="460" y="317" class="vol" font-size="13" text-anchor="middle">海外北经</text>
+  <rect x="150" y="330" width="620" height="24" rx="3" fill="#b89564"/>
+  <text x="460" y="347" class="vol" font-size="13" text-anchor="middle">海外东经</text>
+</g>
+
+<text x="24" y="392" class="grp">海内经　四卷</text>
+<text x="790" y="392" class="note" text-anchor="end">海内四方 · 山川与神</text>
+<g>
+  <rect x="150" y="406" width="620" height="24" rx="3" fill="#6b7f8a"/>
+  <text x="460" y="423" class="vol" font-size="13" text-anchor="middle">海内南经</text>
+  <rect x="150" y="436" width="620" height="24" rx="3" fill="#778a95"/>
+  <text x="460" y="453" class="vol" font-size="13" text-anchor="middle">海内西经</text>
+  <rect x="150" y="466" width="620" height="24" rx="3" fill="#8395a0"/>
+  <text x="460" y="483" class="vol" font-size="13" text-anchor="middle">海内北经</text>
+  <rect x="150" y="496" width="620" height="24" rx="3" fill="#8fa0ab"/>
+  <text x="460" y="513" class="vol" font-size="13" text-anchor="middle">海内东经</text>
+</g>
+
+<text x="24" y="558" class="grp">大荒经　四卷</text>
+<text x="790" y="558" class="note" text-anchor="end">最晚成篇</text>
+<g>
+  <rect x="150" y="572" width="148" height="24" rx="3" fill="#a63d2f"/>
+  <text x="224" y="589" class="vol" font-size="12" text-anchor="middle">大荒东经</text>
+  <rect x="306" y="572" width="148" height="24" rx="3" fill="#b04a3b"/>
+  <text x="380" y="589" class="vol" font-size="12" text-anchor="middle">大荒南经</text>
+  <rect x="462" y="572" width="148" height="24" rx="3" fill="#ba5748"/>
+  <text x="536" y="589" class="vol" font-size="12" text-anchor="middle">大荒西经</text>
+  <rect x="618" y="572" width="152" height="24" rx="3" fill="#c46455"/>
+  <text x="694" y="589" class="vol" font-size="12" text-anchor="middle">大荒北经</text>
+
+  <rect x="150" y="602" width="620" height="24" rx="3" fill="#8a2f24"/>
+  <text x="460" y="619" class="vol" font-size="13" text-anchor="middle">海内经</text>
+</g>
+
+<text x="150" y="664" class="note">共十八卷 · 三万一千余字 · 战国至汉初层累成书 · 刘歆校订 · 郭璞注</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" role="img" aria-labelledby="t d">
+<title id="t">迷榖</title>
+<desc id="d">线描：黑理树干、四散的花与气味的波纹。</desc>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M18 268 Q120 260 210 266 T402 262" stroke="#a3937a" stroke-width="1.6"/>
+
+  <path d="M204 268 C202 230 206 196 200 160 C196 128 200 100 206 74" stroke="#3a3f3c" stroke-width="9"/>
+  <path d="M204 268 C202 236 207 206 203 172" stroke="#5c5a4e" stroke-width="2" opacity="0.8"/>
+  <path d="M205 250 q-3 -30 0 -62 M203 208 q-2 -22 1 -44" stroke="#23282a" stroke-width="1.1" opacity="0.75"/>
+
+  <path d="M203 186 C176 172 154 158 132 140" stroke="#3a3f3c" stroke-width="4"/>
+  <path d="M203 170 C230 158 252 146 276 132" stroke="#3a3f3c" stroke-width="4"/>
+  <path d="M203 146 C180 130 164 112 152 92" stroke="#3a3f3c" stroke-width="3.2"/>
+  <path d="M204 128 C224 112 240 96 252 76" stroke="#3a3f3c" stroke-width="3"/>
+
+  <g fill="#7d9a7f" stroke="#4f6d61" stroke-width="1.2">
+    <ellipse cx="132" cy="136" rx="14" ry="7" transform="rotate(-28 132 136)"/>
+    <ellipse cx="118" cy="122" rx="13" ry="6.5" transform="rotate(-38 118 122)"/>
+    <ellipse cx="278" cy="128" rx="14" ry="7" transform="rotate(24 278 128)"/>
+    <ellipse cx="292" cy="114" rx="13" ry="6.5" transform="rotate(34 292 114)"/>
+    <ellipse cx="152" cy="88" rx="12" ry="6" transform="rotate(-52 152 88)"/>
+    <ellipse cx="252" cy="72" rx="12" ry="6" transform="rotate(46 252 72)"/>
+    <ellipse cx="196" cy="66" rx="11" ry="5.5" transform="rotate(-12 196 66)"/>
+    <ellipse cx="214" cy="54" rx="11" ry="5.5" transform="rotate(14 214 54)"/>
+  </g>
+
+  <g stroke="#b08a5a" fill="#e8d3ac">
+    <circle cx="206" cy="44" r="4.6"/>
+    <circle cx="186" cy="52" r="3.8"/>
+    <circle cx="226" cy="50" r="3.8"/>
+    <circle cx="196" cy="30" r="3.4"/>
+    <circle cx="216" cy="26" r="3.4"/>
+  </g>
+
+  <g stroke="#a63d2f" stroke-width="1" opacity="0.55">
+    <path d="M206 44 l-26 -18"/>
+    <path d="M206 44 l26 -18"/>
+    <path d="M206 44 l-34 4"/>
+    <path d="M206 44 l34 4"/>
+    <path d="M206 44 l-8 -30"/>
+    <path d="M206 44 l10 -30"/>
+  </g>
+
+  <g stroke="#6f8d80" stroke-width="1.3" opacity="0.55">
+    <path d="M320 150 q18 -12 14 -30 q-4 -18 12 -28"/>
+    <path d="M332 164 q22 -10 20 -28"/>
+    <path d="M96 170 q-18 -12 -14 -30 q4 -18 -12 -28"/>
+  </g>
+</g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="t d">
+<title id="t">山海远望</title>
+<desc id="d">纸色底上，三重远山、海面、朱色落日与三只飞鸟。</desc>
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f8f3e8"/>
+    <stop offset="0.62" stop-color="#f1e9d8"/>
+    <stop offset="1" stop-color="#e7ddc8"/>
+  </linearGradient>
+  <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#dde5de"/>
+    <stop offset="1" stop-color="#cfdad2"/>
+  </linearGradient>
+  <radialGradient id="sunGlow" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#c4553f" stop-opacity="0.28"/>
+    <stop offset="1" stop-color="#c4553f" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+
+<rect width="1200" height="520" fill="url(#sky)"/>
+
+<circle cx="872" cy="168" r="132" fill="url(#sunGlow)"/>
+<circle cx="872" cy="168" r="48" fill="#a63d2f" opacity="0.88"/>
+
+<path d="M0 352 C40 330 70 336 100 318 C130 300 150 322 180 310 C210 298 230 272 260 280 C290 288 300 316 330 322 C360 328 380 300 410 294 C440 288 460 310 490 318 C520 326 540 300 570 288 C600 276 620 300 650 310 C680 320 700 292 730 286 C760 280 780 306 810 316 C840 326 860 302 890 296 C920 290 940 312 970 320 C1000 328 1020 306 1050 298 C1080 290 1100 314 1130 322 C1160 330 1180 318 1200 322 L1200 400 L0 400 Z"
+      fill="#b9c9be" opacity="0.55"/>
+<path d="M0 390 C50 370 90 350 140 362 C190 374 220 344 270 332 C320 320 350 352 400 360 C450 368 480 340 530 330 C580 320 610 350 660 360 C710 370 740 342 790 332 C840 322 870 352 920 360 C970 368 1000 340 1050 330 C1100 320 1130 350 1180 358 C1190 360 1195 362 1200 364 L1200 430 L0 430 Z"
+      fill="#8aa398" opacity="0.72"/>
+<path d="M0 434 C60 420 110 400 170 412 C230 424 260 396 320 386 C380 376 410 408 470 416 C530 424 560 396 620 386 C680 376 710 408 770 416 C830 424 860 396 920 386 C980 376 1010 408 1070 416 C1120 422 1160 408 1200 398 L1200 470 L0 470 Z"
+      fill="#4f6d61" opacity="0.86"/>
+
+<rect x="0" y="452" width="1200" height="68" fill="url(#sea)"/>
+<g stroke="#7e9a90" stroke-width="1.4" opacity="0.55" fill="none">
+  <path d="M60 470 q26 -7 52 0 t52 0"/>
+  <path d="M250 482 q26 -7 52 0 t52 0"/>
+  <path d="M520 468 q26 -7 52 0 t52 0"/>
+  <path d="M760 484 q26 -7 52 0 t52 0"/>
+  <path d="M980 470 q26 -7 52 0 t52 0"/>
+</g>
+
+<g stroke="#2b2f2c" stroke-width="1.6" fill="none" stroke-linecap="round" opacity="0.75">
+  <path d="M362 148 q10 -9 20 0 q10 -9 20 0"/>
+  <path d="M424 118 q8 -7 16 0 q8 -7 16 0"/>
+  <path d="M330 108 q7 -6 14 0 q7 -6 14 0"/>
+</g>
+
+<g stroke="#2b2f2c" fill="none" stroke-linecap="round" opacity="0.7">
+  <path d="M118 520 q6 -58 20 -92" stroke-width="3"/>
+  <path d="M138 452 q-26 -10 -40 -34" stroke-width="1.8"/>
+  <path d="M138 452 q26 -8 34 -34" stroke-width="1.8"/>
+  <path d="M138 452 q-8 -22 -4 -44" stroke-width="1.8"/>
+  <path d="M104 418 l-12 -8 M96 424 l-14 -4 M172 418 l12 -8 M180 424 l14 -4" stroke-width="1.4"/>
+</g>
+</svg>
